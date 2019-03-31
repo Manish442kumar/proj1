@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home page</title>
+</head>
+<body>
+<b><center><font size="10">welcome to this site</font></center></b>
+<br>
+<br>
+<h1> ENTER YOUR TEXT HERE:</h1>
+<form action="{% url 'count' %}" name="" method="">
+    <textarea rows="16" cols="116" name="textarea"></textarea>
+
+    <input type="submit" value="COUNT IT">
+</form>
+<br>
+<a href="{% url 'about us' %}"><input type="button" value="   ABOUT US   "></a>
+</body>
+</html>
